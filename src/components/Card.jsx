@@ -15,7 +15,7 @@ function Card(props) {
         <img
           src={image}
           alt='Shoes'
-          className='rounded-xl object-cover h-64 w-full'
+          className='rounded-xl object-cover h-52 w-full'
         />
       </figure>
       <div className='card-body items-center text-center'>
