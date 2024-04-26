@@ -23,7 +23,14 @@ function Products() {
         })
     }, [])
   return (
+    
     <div className='w-3/4 ml-auto mr-auto'>
+      <div className="filter bg-primary-content mt-20 ">
+      <div className="filter-top">
+      <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+      </div>
+      <div className="filter-bottom"></div>
+      </div>
                 <div className="featured-wrapper  flex flex-wrap mt-4 gap-4 mb-20 ">
           {
             loading && <span className="loading loading-ring loading-lg block mx-auto mt-20"></span>
